@@ -1,0 +1,32 @@
+.sidebar{
+    width: 75px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 1rem;
+    &Wrapper{
+        .sidebarList{
+            list-style: none;
+           &Item{
+        padding: 2.5rem 0;  
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            span{
+                margin-top: 10px;
+                font-size:13px;
+                font-weight: 300;
+                color: #b3b3b3;
+            }
+            .sidebarIcon{
+                font-size: 2rem;
+                color: #b3b3b3;
+
+            }
+           }
+        }
+    }
+}
